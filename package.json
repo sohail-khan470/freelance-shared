@@ -22,7 +22,7 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/sohail-khan470/freelance-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -39,7 +39,9 @@
   },
   "types": "./src/index.d.ts",
   "dependencies": {
+    "@elastic/elasticsearch": "^9.2.0",
     "express": "^5.1.0",
+    "mongoose": "^9.0.0",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
